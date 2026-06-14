@@ -56,4 +56,4 @@ Tests/iOSInterviewPrepTests/
 | C | 60m | Read WWDC / docs |
 | D | 60m | System design whiteboard |
 
-See conversation notes for the full 8-week day-by-day plan.
+See `CHALLENGES.md` for specs and `PROGRESS.md` for your daily tracker. Block D & E prep (system design, STAR, company drills) lives in `PREP/D-and-E.md`.
