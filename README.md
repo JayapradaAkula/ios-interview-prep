@@ -1,6 +1,6 @@
 # iOS Interview Prep
 
-FAANG-level iOS interview practice repo for **Jayaprada Akula** — networking, auth, caching, concurrency, UI patterns, and company-specific modules (Uber, Life360, RevenueCat, Zillow).
+FAANG-level iOS interview practice repo for **Jayaprada Akula** — networking, auth, caching, concurrency, UI patterns, and company-specific modules 
 
 ## Quick Start
 
