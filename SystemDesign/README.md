@@ -41,7 +41,7 @@ Use this folder for weekly whiteboard notes (Week 6 of prep plan).
 
 ## Designs to complete (Week 6)
 
-- [ ] IHG hotel booking app
+- [ ] Hotel booking app (global travel platform)
 - [ ] Offline-first loyalty wallet
 - [ ] Real-time trip tracking (Uber)
 - [ ] Subscription SDK client (RevenueCat)

@@ -48,13 +48,13 @@ swift test --filter Challenge01   # replace number
 
 | # | Story | 2 min practiced | 5 min practiced |
 |---|-------|-----------------|-----------------|
-| 1 | IHG booking incident | ⬜ | ⬜ |
+| 1 | Hotel booking incident | ⬜ | ⬜ |
 | 2 | Crash monitoring + hotfix | ⬜ | ⬜ |
-| 3 | Macy's VIPER migration | ⬜ | ⬜ |
-| 4 | Best Buy network tests | ⬜ | ⬜ |
+| 3 | Retail VIPER migration (previous employer) | ⬜ | ⬜ |
+| 4 | Connected-home network tests (previous employer) | ⬜ | ⬜ |
 | 5 | LaunchDarkly rollout | ⬜ | ⬜ |
 | 6 | Release gate conflict | ⬜ | ⬜ |
-| 7 | Frog Dissection 0→1 | ⬜ | ⬜ |
+| 7 | Educational App Store app 0→1 | ⬜ | ⬜ |
 | 8 | Mentoring / standards | ⬜ | ⬜ |
 
 ---
@@ -63,7 +63,7 @@ swift test --filter Challenge01   # replace number
 
 | # | Design | Drawn from memory | Timed 45 min |
 |---|--------|-------------------|--------------|
-| 1 | IHG hotel booking | ⬜ | ⬜ |
+| 1 | Hotel booking app | ⬜ | ⬜ |
 | 2 | Uber trip tracking | ⬜ | ⬜ |
 | 3 | Life360 family safety | ⬜ | ⬜ |
 | 4 | RevenueCat subscriptions | ⬜ | ⬜ |
@@ -94,9 +94,9 @@ Copy a row per day. Fill `Hours`, `LC`, `Challenge`, `D`, `E`, `Notes`.
 
 | Day | Date | Hours | LeetCode | LC ✅ | Challenge | Tests ✅ | Block D | Block E | Notes |
 |-----|------|-------|----------|-------|-----------|----------|---------|---------|-------|
-| 1 | Jun 15 | | Two Sum, Valid Parens | ⬜ | 01 | ✅ | IHG arch sketch | STAR 1 bullets | Challenge 01 actor token store — all tests green |
-| 2 | | | Merge Lists, Contains Dup | ⬜ | — | ⬜ | MVVM vs VIPER | Macy's story | |
-| 3 | | | Max Subarray, Stock | ⬜ | — | ⬜ | IHG hotfix pipeline | Uber eng blog | |
+| 1 | Jun 15 | | Two Sum, Valid Parens | ⬜ | 01 | ✅ | Hotel booking arch sketch | STAR 1 bullets | See `PREP/Day01/` for rest of Day 1 |
+| 2 | | | Merge Lists, Contains Dup | ⬜ | — | ⬜ | MVVM vs VIPER | Retail migration story | |
+| 3 | | | Max Subarray, Stock | ⬜ | — | ⬜ | Hotfix pipeline | Uber eng blog | |
 | 4 | | | Reverse LL, FizzBuzz | ⬜ | — | ⬜ | Search hotels reqs | Life360 research | |
 | 5 | | | Debounce/throttle LC | ⬜ | 02 | ⬜ | STAR 1 draft | Record STAR 1 | |
 | 6 | | | Group Anagrams, Top K | ⬜ | — | ⬜ | Paginated list API | Zillow UX | |
@@ -131,9 +131,9 @@ Copy a row per day. Fill `Hours`, `LC`, `Challenge`, `D`, `E`, `Notes`.
 | Day | Date | Hours | LeetCode | LC ✅ | Challenge | Tests ✅ | Block D | Block E | Notes |
 |-----|------|-------|----------|-------|-----------|----------|---------|---------|-------|
 | 22 | | | Queue via Stacks | ⬜ | — | ⬜ | Listing detail states | SwiftUI List | |
-| 23 | | | Kth Largest | ⬜ | — | ⬜ | STAR IHG triage | Skeleton UI | |
+| 23 | | | Kth Largest | ⬜ | — | ⬜ | STAR booking triage | Skeleton UI | |
 | 24 | | | Merge Intervals | ⬜ | — | ⬜ | Checkout form UX | Keyboard | |
-| 25 | | | LCA BST | ⬜ | — | ⬜ | VIPER module | Macy's slice | |
+| 25 | | | LCA BST | ⬜ | — | ⬜ | VIPER module | Retail app slice | |
 | 26 | | | Serialize BST | ⬜ | 09 | ⬜ | Deep linking | Trip state UI | |
 | 27 | | | Connected Components | ⬜ | — | ⬜ | Map + list split | CoreLocation | |
 | 28 | | | UI LC redo | ⬜ | 09 | ⬜ | Mock UI 60m | Record demo | |
@@ -154,7 +154,7 @@ Copy a row per day. Fill `Hours`, `LC`, `Challenge`, `D`, `E`, `Notes`.
 
 | Day | Date | Hours | LeetCode | LC ✅ | Challenge | Tests ✅ | Block D | Block E | Notes |
 |-----|------|-------|----------|-------|-----------|----------|---------|---------|-------|
-| 36 | | | House Robber | ⬜ | — | ⬜ | Design: IHG booking | Final diagram | |
+| 36 | | | House Robber | ⬜ | — | ⬜ | Design: hotel booking | Final diagram | |
 | 37 | | | Decode Ways | ⬜ | — | ⬜ | Design: loyalty wallet | Funnel metrics | |
 | 38 | | | Unique Paths | ⬜ | — | ⬜ | Design: Uber trip | State sync | |
 | 39 | | | Partition Subset | ⬜ | — | ⬜ | Design: RevenueCat | StoreKit 2 | |

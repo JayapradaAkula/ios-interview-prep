@@ -14,7 +14,7 @@ final class Challenge05AuthCoordinatorTests: XCTestCase {
         var unauthorizedWithoutFreshToken = 0
         client.handlers["/hotels"] = { endpoint in
             if endpoint.headers["Authorization"] == "Bearer fresh-token" {
-                return [Hotel(id: "1", name: "IHG", city: "Atlanta", pricePerNight: 150)]
+                return [Hotel(id: "1", name: "Sample Hotel", city: "Atlanta", pricePerNight: 150)]
             }
             unauthorizedWithoutFreshToken += 1
             throw NetworkError.unauthorized

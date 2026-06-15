@@ -32,7 +32,7 @@ Use this order every time. Say each step out loud before drawing.
 - Availability (99.9% vs 99.99%)?
 - Security/compliance (PCI, GDPR, kids' privacy)?
 
-**Example script (IHG-style booking):**
+**Example script (hotel-booking app):**
 > "I'll design hotel search and booking for a global consumer app. Assumptions: 5M DAU, search-heavy, booking must be reliable, support offline draft saves, and PCI for payments. p95 search under 300ms on good network."
 
 ### Step 2 — High-level architecture (5 min)
@@ -124,7 +124,7 @@ Always end with 2 tradeoffs.
 
 ## 6 System Designs (practice outlines)
 
-### Design 1 — IHG Hotel Booking App
+### Design 1 — Hotel Booking App (Global Travel Platform)
 
 **Requirements:** Search, details, book+pay (PCI), loyalty points, 5M DAU, 99.9% availability.
 
@@ -183,18 +183,18 @@ protocol SubscriptionManager {
 
 Every story needs a **metric** in the Result. Replace placeholders with your real numbers.
 
-### STAR 1 — IHG Production Booking Incident
+### STAR 1 — Hotel Booking Production Incident
 
 | | |
 |---|---|
-| **S** | Critical failures in IHG global booking during high traffic; customers couldn't complete reservations. |
+| **S** | Critical failures in global hotel booking app during high traffic; customers couldn't complete reservations. |
 | **T** | Lead triage, minimize impact, restore stability, prevent recurrence. |
 | **A** | Incident bridge; AppDynamics funnel tracing; identified payment confirmation API failure; hotfix with QA gates; RCA with timeline; funnel metrics at each step. |
 | **R** | Restored booking success rate; reduced MTTR; improved release confidence. *(Add: MTTR X→Y, success rate %)* |
 
 **Follow-ups:** Hotfix vs root cause priority? Communication to support? Guardrails added?
 
-### STAR 2 — Crash Monitoring + Hotfix Pipeline (IHG)
+### STAR 2 — Crash Monitoring + Hotfix Pipeline (Hotel App)
 
 | | |
 |---|---|
@@ -203,18 +203,18 @@ Every story needs a **metric** in the Result. Replace placeholders with your rea
 | **A** | Crash bucketing by release; hotfix branch protocol; AppDynamics; DevOps release gates; incident playbooks. |
 | **R** | Team-wide adoption; faster detection; fewer booking/loyalty regressions. |
 
-### STAR 3 — Macy's ObjC → Swift VIPER Migration
+### STAR 3 — ObjC → Swift VIPER Migration (Major Retail App)
 
 | | |
 |---|---|
-| **S** | Legacy Macy's iOS: large ObjC MVC, high traffic, squads blocked by coupling. |
+| **S** | Legacy retail iOS app: large ObjC MVC codebase, high traffic, squads blocked by coupling. |
 | **T** | Modernize without stopping features or downtime. |
 | **A** | VIPER modules; incremental migration; REST → xAPI/Protobuf; CocoaPods standardization; parallel squads. |
 | **R** | Zero-downtime migration; parallel shipping; smaller payloads / lower latency. |
 
 **Tradeoff:** "VIPER added boilerplate but enabled 4 squads to ship independently."
 
-### STAR 4 — Best Buy Networking Test Coverage
+### STAR 4 — Networking Test Coverage (Connected-Home App)
 
 | | |
 |---|---|
@@ -223,7 +223,7 @@ Every story needs a **metric** in the Result. Replace placeholders with your rea
 | **A** | Quick/Nimble; DI into ViewModels; mocked network at repository; success + failure paths; shared team pattern. |
 | **R** | Reduced defect escape rate before QA. *(Add % if available)* |
 
-### STAR 5 — LaunchDarkly Controlled Rollout (IHG)
+### STAR 5 — LaunchDarkly Controlled Rollout (Hotel App)
 
 | | |
 |---|---|
@@ -241,7 +241,7 @@ Every story needs a **metric** in the Result. Replace placeholders with your rea
 | **A** | Presented crash + funnel data; flag-off proposal; risk matrix; PM/QA/DevOps alignment. |
 | **R** | Stable release shipped; feature launched behind flag next sprint. |
 
-### STAR 7 — 0→1 App Store (Frog Dissection)
+### STAR 7 — 0→1 Educational App Store App
 
 | | |
 |---|---|
@@ -256,7 +256,7 @@ Every story needs a **metric** in the Result. Replace placeholders with your rea
 |---|---|
 | **S** | Inconsistent architecture and code review depth. |
 | **T** | Raise bar via practices. |
-| **A** | Review checklist; MVVM/VIPER docs; pairing; testing template from Best Buy work. |
+| **A** | Review checklist; MVVM/VIPER docs; pairing; testing template from prior connected-home project. |
 | **R** | Consistent PR quality; faster onboarding; fewer arch regressions. |
 
 ### Amazon Leadership Principles map
@@ -333,7 +333,7 @@ Every story needs a **metric** in the Result. Replace placeholders with your rea
 | 3 | Uber WebSocket | Life360 battery | Billing retry | Zillow images | STAR 3+4 |
 | 4 | Full Uber design | Life360 privacy | RevenueCat SDK API | Zillow map/list | STAR 5+6 |
 | 5 | Mock Uber 60m | Mock Life360 | Mock RevenueCat | Mock Zillow | FAANG design |
-| 6 | Design: IHG | Design: Uber | Design: Life360 | Design: RevenueCat | Design: Zillow |
+| 6 | Design: Hotel | Design: Uber | Design: Life360 | Design: RevenueCat | Design: Zillow |
 | 7 | Company deep + STAR | — | — | — | Full mock |
 | 8 | 4× full mocks | — | — | — | — |
 
