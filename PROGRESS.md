@@ -12,7 +12,7 @@ Update this file at end of each day. Commit with: `git commit -m "Progress: Week
 
 | Week | Gate | Status |
 |------|------|--------|
-| 1 | Challenges 01–03 tests green | ⬜ |
+| 1 | Challenges 01–03 tests green | 🔄 (01 done) |
 | 2 | Challenges 04–05 tests green | ⬜ |
 | 3 | Challenges 06–08 tests green | ⬜ |
 | 4 | Challenge 09 green + UI flow notes | ⬜ |
@@ -27,7 +27,7 @@ Update this file at end of each day. Commit with: `git commit -m "Progress: Week
 
 | # | Challenge | Test filter | Done |
 |---|-----------|-------------|------|
-| 01 | Thread-Safe Token Box | `Challenge01` | ⬜ |
+| 01 | Thread-Safe Token Box | `Challenge01` | ✅ |
 | 02 | Debounced Search | `Challenge02` | ⬜ |
 | 03 | Retry with Backoff | `Challenge03` | ⬜ |
 | 04 | NetworkClient | `Challenge04` | ⬜ |
@@ -94,7 +94,7 @@ Copy a row per day. Fill `Hours`, `LC`, `Challenge`, `D`, `E`, `Notes`.
 
 | Day | Date | Hours | LeetCode | LC ✅ | Challenge | Tests ✅ | Block D | Block E | Notes |
 |-----|------|-------|----------|-------|-----------|----------|---------|---------|-------|
-| 1 | | | Two Sum, Valid Parens | ⬜ | 01 | ⬜ | IHG arch sketch | STAR 1 bullets | |
+| 1 | Jun 15 | | Two Sum, Valid Parens | ⬜ | 01 | ✅ | IHG arch sketch | STAR 1 bullets | Challenge 01 actor token store — all tests green |
 | 2 | | | Merge Lists, Contains Dup | ⬜ | — | ⬜ | MVVM vs VIPER | Macy's story | |
 | 3 | | | Max Subarray, Stock | ⬜ | — | ⬜ | IHG hotfix pipeline | Uber eng blog | |
 | 4 | | | Reverse LL, FizzBuzz | ⬜ | — | ⬜ | Search hotels reqs | Life360 research | |

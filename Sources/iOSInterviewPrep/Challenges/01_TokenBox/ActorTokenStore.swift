@@ -2,20 +2,21 @@ import Foundation
 
 // MARK: - Challenge 01: Thread-Safe Token Box
 
-/// Implement using `actor` (recommended) or another thread-safe approach.
+/// Thread-safe token storage using Swift `actor` isolation.
 public actor ActorTokenStore: TokenStoring {
     public init() {}
 
+    private var token: String?
+
     public func get() async -> String? {
-        // TODO: Challenge 1.1
-        nil
+        token
     }
 
     public func set(_ token: String) async {
-        // TODO: Challenge 1.1
+        self.token = token
     }
 
     public func clear() async {
-        // TODO: Challenge 1.1
+        token = nil
     }
 }
